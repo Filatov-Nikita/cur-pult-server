@@ -113,7 +113,7 @@ const data = [
       x: 0,
       y: 0
     },
-  ].map(el => el = { ...el, CategoryId: 27 }),
+  ].map(el => el = { ...el, CategoryId: 1 }),
   [
     {
       icon: "12",
@@ -175,7 +175,7 @@ const data = [
       x: 0,
       y: 0
     },
-  ].map(el => el = { ...el, CategoryId: 28 }),
+  ].map(el => el = { ...el, CategoryId: 2 }),
   [
     {
       icon: "18",
@@ -237,7 +237,7 @@ const data = [
       x: 0,
       y: 0
     },
-  ].map(el => el = { ...el, CategoryId: 29 }),
+  ].map(el => el = { ...el, CategoryId: 3 }),
   [
     {
       icon: "22",
@@ -299,7 +299,7 @@ const data = [
       x: 0,
       y: 0
     },
-  ].map(el => el = { ...el, CategoryId: 30 })
+  ].map(el => el = { ...el, CategoryId: 4 })
 ].reduce((acc, arrChild) => {
   acc.push(...arrChild);
   return acc;
